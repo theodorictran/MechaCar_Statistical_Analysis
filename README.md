@@ -24,3 +24,22 @@ This linear model effectively predicts mpg values of MechaCar prototypes because
 
 Looking at the total lot summary, for all manufacturing lots in total, the variance of the suspensions coils do not exceed 100 pounds per square inch thus meeting the design specification. However, taking a deeper look and looking at each manufacturing lots, Lot 3 exceeds the variance target by a large margin. As a result, Lot 3 should be investigated to determine the root casue of this behavior.
 
+## T-Tests on Suspension Coils
+
+#### All Lots T-Test
+<img width="398" alt="all_lot_t_test" src="https://user-images.githubusercontent.com/91519293/153803450-81ac2f1d-0211-433f-be43-f4e6d55f7b8e.png">
+Looking at all manufacturing lots, with a p-value of 0.06028 is larger than the significane level of 0.05 meaning looking at the lots together are not statistically significant and the means are statistically similar.
+
+#### Manufacturing Lot 1 T-Test
+<img width="554" alt="lot_1_t_test" src="https://user-images.githubusercontent.com/91519293/153803469-da84d779-e01c-4a64-a215-a10b9b910f68.png">
+Lot 1 T-test results show that lot 1 alone is not statistically significant becauses the returned p-value was greater than 0.05.
+
+#### Manufacturing Lot 2 T-Test
+<img width="556" alt="lot_2_t_test" src="https://user-images.githubusercontent.com/91519293/153803490-f9dea7b8-62af-4404-b7c2-507d2a4207e2.png">
+Lot 2 T-test results, like the results of Lot 1 T-test, indicate that lot 2 is not statistically significant either. 
+
+#### Manufacturing Lot 3 T-Test
+<img width="558" alt="lot_3_t_test" src="https://user-images.githubusercontent.com/91519293/153803512-226e62d0-042f-4db5-9d26-35629a28752a.png">
+At the other end, Lot 3 is statistically significant because the p-value of 0.04168 is lower than 0.05. With this, we can reject the null hypothesis and state that the means are not statistically similar.
+
+
