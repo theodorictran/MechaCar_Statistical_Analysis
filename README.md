@@ -42,4 +42,4 @@ Lot 2 T-test results, like the results of Lot 1 T-test, indicate that lot 2 is n
 <img width="558" alt="lot_3_t_test" src="https://user-images.githubusercontent.com/91519293/153803512-226e62d0-042f-4db5-9d26-35629a28752a.png">
 At the other end, Lot 3 is statistically significant because the p-value of 0.04168 is lower than 0.05. With this, we can reject the null hypothesis and state that the means are not statistically similar.
 
-
+## Study Design: MechaCar vs Competition
